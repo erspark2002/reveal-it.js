@@ -1,0 +1,38 @@
+/*
+    Created on : 12/02/2015, 7:06:03 PM
+    Author     : Robin Spark
+*/
+
+.container {
+    border: 1px solid #555;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(80, 80, 80, 0.2);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+
+.bg-red {
+    color: #fff;
+    background: #555;
+}
+.scroll-down {
+    margin-bottom: 500px;
+    border: none;
+    box-shadow: none;
+}
+
+.btn-reveal, .btn-reveal:focus, .btn-reveal:visited  {
+    background-color: #555;
+    background-image: none;
+    border-color: #555;
+}
+.btn-reveal:hover {
+    background-color: #666;
+    border-color: #555;
+}
+
+.footer {
+    border: none;
+    box-shadow: none;
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>reveal-it.js Demo</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="keywords" content="reveal-it.js, jQuery, jQuery-plugin, robin spark front end developer">
+        <meta name="description" content="reveal-it.js is a jQuery plugin that gradually reveals text from left to right">
+        <meta charset="UTF-8">
+        <!--<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>-->
+        <!--        <script type="text/javascript" src="js/bootstrap.min.js"></script>-->
+
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.css">
+
+        <!--Plugin stylesheet-->
+        <link href="css/reveal-it.css" rel="stylesheet" type="text/css"/>
+        <link href="css/main.css" rel="stylesheet" type="text/css"/>
+
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1 class="text-center">reveal-it.js Demo</h1>
+                    <p>
+                        This jQuery Plugin gradually displays text from left to right to produce a fade-in effect.
+                        Get it on <a href="#">github here</a>.
+                    </p>
+                    <p>
+                        Limitations: The background color must be solid.
+                    </p>
+                    <p>
+                        Refresh the page, and slowly scroll down to see it in action.
+                    </p>
+                    <p>
+                        <a href="examples.html">Code Samples</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <p>Box 1: Reveal Immediately</p>
+                    <div class="box1">
+                        <h1>Lorem ipsum dolor sit amet, ne mel vero impetus voluptatibus</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container bg-red">
+            <div class="row">
+                <div class="col-xs-12">
+                    <p>Box 2: Reveals after 3000ms delay</p>
+                    <div class="box2">
+                        <h1>Lorem ipsum dolor sit amet, ne mel vero impetus voluptatibus</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <!--Original-->
+                    <p>Box 3: Reveal on click event</p>
+                    <div>
+                        <div class="box3">
+                            <h1>Lorem ipsum dolor sit amet, ne mel vero impetus voluptatibus</h1>
+                        </div>
+                    </div>
+
+                    <button class="btn btn-primary btn-reveal">Reveal!</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container scroll-down">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1>Scroll Down ...</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <!--Original-->
+                    <p>Box 4: Reveal when element scrolls into the viewport</p>
+                    <div>
+                        <div class="box4">
+                            <h1>Lorem ipsum dolor sit amet, ne mel vero impetus voluptatibus</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container footer text-center">
+            <div class="row">
+                <div class="col-xs-12">
+                    <p>Robin Spark - Front End Web Developer - 2015</p>
+                </div>
+            </div>
+        </div>
+
+        <!--Make page load faster by placing scripts at end.-->
+        <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/reveal-it.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>
