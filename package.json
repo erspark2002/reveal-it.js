@@ -1,25 +1,25 @@
 {
-  "name": "reveal-it",
-  "version": "0.0.1",
-  "description": "Gradually reveals text from left to right producing an animated text fade-in effect.",
-  "author": "Robin Spark robin.spark@gmail.com",
-  "main": "dist/reveal-it.js",
-  "repository": {
-  "type": "git",
-  "url": "https://github.com/erspark2002/reveal-it.js"
-},
-  "bugs": {
-  "url": "https://github.com/erspark2002/reveal-it.js/issues"
-},
-  "keywords": [
-  "jquery-plugin"
-  ,"reveal-it.js"
-  ,"Animation and effects"
-  ,"gradually reveal"
-  ,"fade-in effect"
-  ,"animated text"
-  ,"fade in-out"
-  ,"show text"
-],
-  "license": "MIT"
+	"name": "reveal-it",
+	"version": "0.0.1",
+	"description": "Gradually reveals text from left to right producing an animated text fade-in effect.",
+	"author": "Robin Spark robin.spark@gmail.com",
+	"main": "dist/reveal-it.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/erspark2002/reveal-it.js"
+	},
+	"bugs": {
+		"url": "https://github.com/erspark2002/reveal-it.js/issues"
+	},
+	"keywords": [
+		"jquery-plugin"
+		,"reveal-it.js"
+		,"Animation and effects"
+		,"gradually reveal"
+		,"fade-in effect"
+		,"animated text"
+		,"fade in-out"
+		,"show text"
+	],
+	"license": "MIT"
 }
