@@ -11,11 +11,11 @@
 
 ## Demo
 
-* [Click here for a demo.](http://staticfiles.bitballoon.com/reveal-it.js/)
+* [Click here for a demo.](https://erspark2002.github.io/erspark2002/reveal-it-js/)
 
 ## Sample Code
 
-* [Click here for some sample code.](http://staticfiles.bitballoon.com/reveal-it.js/examples)
+* [Click here for some sample code.](https://erspark2002.github.io/erspark2002/reveal-it-js/examples)
 
 ## Limitations
 
